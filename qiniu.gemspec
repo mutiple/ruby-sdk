@@ -24,6 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'webmock', '~> 2.3'
   gem.add_runtime_dependency 'json', '~> 1.8'
   gem.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0.0'
-  gem.add_runtime_dependency 'mime-types', '~> 2.4', '>= 2.4.0'
+  gem.add_runtime_dependency 'mime-types', '~> 3.1', '>= 3.1.0'
   gem.add_runtime_dependency 'jruby-openssl', '~> 0.7' if RUBY_PLATFORM == 'java'
 end
